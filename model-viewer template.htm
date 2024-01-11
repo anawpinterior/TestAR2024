@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="model-viewer%20template_files/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer src="MaterialsVariantsShoe.glb" ar="" camera-controls="" tone-mapping="commerce" poster="poster.webp" touch-action="pan-y" alt="A 3D model of a Shoe" id="shoe" ar-status="not-presenting">
+      <div class="progress-bar hide" slot="progress-bar">
+          <div class="update-bar" style="width: 100%;"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">
+          View in your space
+      </button>
+      <div id="ar-prompt">
+          <img src="model-viewer%20template_files/ar_hand_prompt.png">
+      </div>
+    </model-viewer>  
+    <script src="model-viewer%20template_files/script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script type="module" src="model-viewer%20template_files/model-viewer.min.js"></script>
+  
+</body></html>
